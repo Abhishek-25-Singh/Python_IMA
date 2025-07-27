@@ -9,3 +9,6 @@ print("Array:", arr)
 print("Item size:", arr.itemsize)   # 8 bytes per float
 print("Total elements:", arr.size)  # 5 elements
 print("Total Memory (nbytes):", arr.nbytes)  # 5 × 8 = 40 bytes
+print(np.ones(5))
+print(np.ones(5,dtype=int))
+np.ones((5,), dtype=int)
