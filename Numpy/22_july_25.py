@@ -117,3 +117,46 @@ S_3D=np.ones((3,3,2),dtype=int)# 3 blocks, 2 rows and 3 columns
 print(S_3D)
 
 ?np.zeros #zeros(shape, dtype=float, order='C', *, like=None)
+
+np.zeros(5)
+np.zeros(5,dtype=int)
+
+np.zeros((2,2))
+np.zeros((2,2),dtype=int)
+
+s = (2,3)
+Array_2d = np.zeros(s)
+Array_2d_int = np.zeros(s,dtype=int)
+print("2D Array with Floating Value :",Array_2d)
+print("2D Array with Integer Value :",Array_2d_int)
+print("2D Array with Integer Value :",Array_2d_int)
+
+
+# Define the shape of the array
+# s = (2, 3, 4) means:
+# → 2 blocks (or "depth" layers)
+# → Each block has 3 rows
+# → Each row has 4 columns
+s = (2, 3, 4)
+
+# Create a 3D NumPy array filled with zeros using the shape 's'
+Array_3d = np.zeros(s)
+
+# Print the 3D array
+# Output will be two 3x4 matrices (filled with 0.0 by default since dtype=float)
+print("3D Array with shape (2, 3, 4):")
+print(Array_3d)
+
+
+# Defin The Shape Of the array 
+# s= (2,3,4) means :
+# 2 blocks(or "depth" layers)
+# Each block has 3 row
+# Each block has 4 columns
+s=(2,3,4)
+#Create a 3D Numpy Array filled with Zeros using the shape s
+arr_3D = np.zeros(s,dtype=int)
+# Print the 3D array
+# Output will be two 3x4 matrices (filled with 0 since dtype=int)
+print("3D Array with shape (2, 3, 4):")
+print(arr_3D)
