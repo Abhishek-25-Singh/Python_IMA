@@ -115,3 +115,5 @@ S_2D=np.ones((2,2),dtype=int)   # 2 rows , 2 columns
 S_3D=np.ones((3,2,3),dtype=int)
 S_3D=np.ones((3,3,2),dtype=int)# 3 blocks, 2 rows and 3 columns
 print(S_3D)
+
+?np.zeros #zeros(shape, dtype=float, order='C', *, like=None)
