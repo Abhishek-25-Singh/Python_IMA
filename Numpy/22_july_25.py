@@ -26,3 +26,25 @@ print(repr(num)) # Output: 42 ➡️ Same output here — because number doesn't
 arr = np.ones(3)
 print("arr Using Print function :",arr)
 print("Using Representation Function :",repr(arr)) #➡️ repr() tells you it's a NumPy array, not just a list of numbers.
+
+np.ones(5)
+
+
+np.ones(5,dtype=int)
+
+
+print(np.ones(5))
+print(np.ones(5,dtype=int))
+
+
+np.ones((5,))
+
+
+np.ones((5,), dtype=int)
+
+print(np.ones(5,))
+print(np.ones((5,),dtype=int))
+
+s = np.ones((5),dtype = int)
+print(s)
+print("Type of s : ",type(s))
