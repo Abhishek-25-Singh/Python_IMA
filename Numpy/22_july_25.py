@@ -79,3 +79,39 @@ print(np.ones(S_1D,dtype=int))
 S_2D = (2,2)       #shape(2,2) 2Dimension Array
 print(np.ones(S_2D))
 print(np.ones(S_2D,dtype=int))
+
+
+S_3D = (3,2,4)    #shape(3,3,2) 3Dimension Array
+print(np.ones(S_3D))
+print(np.ones(S_3D,dtype=int))
+
+#3D Array with all ones in Floating Values
+# Shape =(2,2,2) 2 Block, 2 Row, 2 Column
+S = (2,2,2)
+Array_3D = np.ones(S)
+print(Array_3D)
+
+
+# 3D Array with all ones in Integer 
+# Shape = (2,2,2) 2blocks,each with 2 rows and 2 columns
+s = (2,2,2)
+Array_3D = np.ones(s,dtype = int)
+print(Array_3D)
+# Output: Two 2×2 matrices (2 rows × 2 columns), filled with 1
+
+_1D=np.ones((2))
+S_2D=np.ones((2,2))   # 2 rows , 2 columns
+S_3D=np.ones((3,2,3)) # 3 blocks, 2 rows and 3 columns
+S_3D=np.ones((3,3,2)) # 3 blocks, 2 rows and 3 columns
+print(S_3D)
+
+
+np.ones((2,1),dtype=int)
+np.ones((2,2),dtype=int)
+np.ones((3,3),dtype=int)
+
+S_1D=np.ones((2),dtype=int)
+S_2D=np.ones((2,2),dtype=int)   # 2 rows , 2 columns
+S_3D=np.ones((3,2,3),dtype=int)
+S_3D=np.ones((3,3,2),dtype=int)# 3 blocks, 2 rows and 3 columns
+print(S_3D)
