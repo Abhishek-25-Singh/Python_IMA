@@ -58,3 +58,24 @@ print(np.ones((5,),dtype=int))
 s = np.ones((5),dtype = int)
 print(s)
 print("Type of s : ",type(s))
+
+
+ IN 2D Array
+np.ones((2,1)) #(2 Rows X 1 columns)
+
+np.ones((2,2)) #(2 Rows X 2 columns)
+np.ones((3,3)) #(3 Rows X 3 columns)
+
+
+s = (2,2)
+arr=np.ones(s,dtype = int)
+print("Array :",arr)
+print("Total Memory in bytes :",arr.nbytes)
+
+S_1D = (2)          #shape(2) 1Dimension Array
+print(np.ones(S_1D))
+print(np.ones(S_1D,dtype=int))
+
+S_2D = (2,2)       #shape(2,2) 2Dimension Array
+print(np.ones(S_2D))
+print(np.ones(S_2D,dtype=int))
