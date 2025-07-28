@@ -30,6 +30,16 @@ print("Using Representation Function :",repr(arr)) #➡️ repr() tells you it's
 np.ones(5)
 
 
+# Check Total Memory Used
+arr = np.ones(5)
+print("Total Memory in bytes :",arr.nbytes)
+
+arr = np.ones(5)
+print("Array : ",arr)
+print("Item Size :",arr.itemsize)
+print("Total Element :",arr.size)
+print("Total Memory in byte :",arr.nbytes)
+
 np.ones(5,dtype=int)
 
 
