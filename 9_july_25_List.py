@@ -68,3 +68,14 @@ print("names[-1] :",names[-1]) # Last element
 print("names[-2] :",names[-2]) # Third Element
 print("names[-3] :",names[-3]) # Second Element 
 print("names[-4] :",names[-4]) # First Element
+
+#✂️ Slicing
+
+numbers = [10,20,30,40,50,60]
+print("numbers[:] :",numbers[:])
+print("numbers[0:] :",numbers[0:])
+print("numbers[:5] :",numbers[:5])# Stop is Exclusive
+print("numbers[:6] :",numbers[:6])
+print("numbers[1:4] :",numbers[1:4])
+print("numbers[2:] :",numbers[2:])
+print("numbers[0::2] :",numbers[0::2])
