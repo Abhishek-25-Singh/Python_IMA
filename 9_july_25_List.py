@@ -28,3 +28,7 @@ print("Colors[3] :",Colors[-3])
 print("Colors[3] :",Colors[-4])
 
 #🔹 Key Properties of Lists
+#Mixed Data Type
+Mixed_list = [1,"hello",3.14,True]
+print("Mixed Type : ",Mixed_list)
+print("Type of Mixed_list :",type(Mixed_list)
