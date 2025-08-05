@@ -26,3 +26,5 @@ print("Colors[-1] :",Colors[-1])
 print("Colors[2] :",Colors[-2])
 print("Colors[3] :",Colors[-3])
 print("Colors[3] :",Colors[-4])
+
+#🔹 Key Properties of Lists
