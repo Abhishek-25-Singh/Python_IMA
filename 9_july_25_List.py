@@ -80,3 +80,9 @@ print("numbers[1:4] :",numbers[1:4])
 print("numbers[2:] :",numbers[2:])
 print("numbers[0::2] :",numbers[0::2])
 print("Reverse The list numbers[::-1] :",numbers[::-1])
+
+#6.List Support item Assignment.
+marks = [85,90,78,92]
+print("Before Updating :",marks)
+marks[2] = 95
+print("After Updating :",marks)
