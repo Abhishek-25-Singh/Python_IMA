@@ -37,3 +37,11 @@ print("Type of Mixed_list :",type(Mixed_list)
 Duplicates = [1,1,"Abhishek","Abhishek",True,True]
 print("Duplicates :",Duplicates)
 print("type of Duplicates :",type(Duplicates))
+
+#3.List preserve the order of the inputs.
+fruits = ["Apple","Banana","Mango","Cherry"]
+print("Fruits :",fruits)
+print("Type of fruits :",type(fruits))
+
+fruits.append("Grapes")
+print("Fruits :",fruits) #✔️ New element add hua, last mein — order ab bhi preserve hai.
