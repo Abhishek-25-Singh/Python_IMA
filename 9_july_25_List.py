@@ -14,3 +14,15 @@ print("Type of int_list :",type(int_list))
 Str_list = ["Apple","Banana","Cherry"]
 print("Str_list :",Str_list)
 print("Type of Str_list :",type(Str_list))
+
+# 🔹 Accessing Elements in a List
+fruits = ["Apple","Banana","Grapes","Orange"]
+Colors = ["Red","Yellow","Purple","Green"]
+print("fruits[0] :",fruits[0])
+print("fruits[1] :",fruits[1])
+print("fruits[2] :",fruits[2])
+print("fruits[3] :",fruits[3])
+print("Colors[-1] :",Colors[-1])
+print("Colors[2] :",Colors[-2])
+print("Colors[3] :",Colors[-3])
+print("Colors[3] :",Colors[-4])
