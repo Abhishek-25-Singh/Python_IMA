@@ -45,3 +45,13 @@ print("Type of fruits :",type(fruits))
 
 fruits.append("Grapes")
 print("Fruits :",fruits) #✔️ New element add hua, last mein — order ab bhi preserve hai.
+
+#4. List are mutable in nature.
+#🔹 Modifying List Elements (Mutability)
+
+fruits = ["Apple","Banana","Mango","Cherry"]
+print("fruits :",fruits)
+print("Type of fruits :",type(fruits))
+fruits[0] = "Grapes"
+print("fruits :",fruits)
+print("Type of fruits :",type(fruits))
