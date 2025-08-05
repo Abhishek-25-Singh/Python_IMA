@@ -32,3 +32,8 @@ print("Colors[3] :",Colors[-4])
 Mixed_list = [1,"hello",3.14,True]
 print("Mixed Type : ",Mixed_list)
 print("Type of Mixed_list :",type(Mixed_list)
+
+#2.List Can Store Repeated or Duplicate value.
+Duplicates = [1,1,"Abhishek","Abhishek",True,True]
+print("Duplicates :",Duplicates)
+print("type of Duplicates :",type(Duplicates))
