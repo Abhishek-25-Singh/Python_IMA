@@ -55,3 +55,16 @@ print("Type of fruits :",type(fruits))
 fruits[0] = "Grapes"
 print("fruits :",fruits)
 print("Type of fruits :",type(fruits))
+
+#5.list Support indexing and Slicing.
+
+names = ["Abhishek", "Piyush", "Neer","Ganesha"]
+print("names[0] :",names[0]) # First element
+print("names[1] :",names[1]) # Second Element
+print("names[2] :",names[2]) # Third Element
+print("names[3] :",names[3]) # Fourth Element
+#Negative Indexing 
+print("names[-1] :",names[-1]) # Last element
+print("names[-2] :",names[-2]) # Third Element
+print("names[-3] :",names[-3]) # Second Element 
+print("names[-4] :",names[-4]) # First Element
