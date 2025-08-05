@@ -86,3 +86,9 @@ marks = [85,90,78,92]
 print("Before Updating :",marks)
 marks[2] = 95
 print("After Updating :",marks)
+
+
+#🔁 You can also assign in a loop:
+for i in range(len(marks)):
+    print(marks[i] +5)
+    print("Updated Marks:", marks)
