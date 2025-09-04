@@ -39,3 +39,14 @@ print("type of name :",type(name))
 # Boolean
 flag = True
 print("Type of flag :",type(flag))
+
+#List
+fruits = ["Apple","Banana"]
+print("Type of fruits : ",type(fruits))
+
+# Dictionary
+person = {"name": "Abhishek", "age": 23}
+print("Type of person : ",type(person))   # <class 'dict'>
+
+value = "100"
+print("type of value : ",type(value))
