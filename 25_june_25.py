@@ -27,3 +27,15 @@ score2 = 99
 age = 20
 Age = 25
 AGE = 30
+# type () : function in python tells us data Type of the given value or Variable.
+#Number
+print("10   :",type(10))
+print("3.14 :",type(3.14))
+
+# String
+name = "Abhishek"
+print("type of name :",type(name))
+
+# Boolean
+flag = True
+print("Type of flag :",type(flag))
