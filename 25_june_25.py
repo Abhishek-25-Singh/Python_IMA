@@ -50,3 +50,11 @@ print("Type of person : ",type(person))   # <class 'dict'>
 
 value = "100"
 print("type of value : ",type(value))
+
+x = 10
+if type(x) == int:
+    print("x is a integer")
+
+name = "Abhishek"
+if type(name) == str:
+    print("name is a String")
