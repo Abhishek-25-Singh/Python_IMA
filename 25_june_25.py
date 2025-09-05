@@ -58,3 +58,9 @@ if type(x) == int:
 name = "Abhishek"
 if type(name) == str:
     print("name is a String")
+
+
+# There are 3 common naming conventions in Python and other languages:
+# MYNameisAbhishek  #pascal Case
+# MyNameIsAbhishek #Camel Case
+# My_name_is_abhishek #Snake Case
