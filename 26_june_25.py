@@ -7,3 +7,9 @@ c = a + b  # result(c) also be float because both operands (a,b) are float
 print("a + b = ",c)
 print("Type of c :",type(c))
 print("Round od The Value upto 2 Decimal :",round(c,2))
+
+
+x = 10  # x infers This as Integer
+y = 10.5 # y infers This as Float
+z = "hello" # z infers This as String
+# Here You Never Told Python That "x is Integer","y is Float" and "z is String" Python infers it From The Value.
