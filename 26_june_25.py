@@ -13,3 +13,7 @@ x = 10  # x infers This as Integer
 y = 10.5 # y infers This as Float
 z = "hello" # z infers This as String
 # Here You Never Told Python That "x is Integer","y is Float" and "z is String" Python infers it From The Value.
+
+
+# This is a single-line comment
+a = 20  # This is an inline comment
