@@ -64,3 +64,16 @@ if type(name) == str:
 # MYNameisAbhishek  #pascal Case
 # MyNameIsAbhishek #Camel Case
 # My_name_is_abhishek #Snake Case
+
+# Declaring Multiple variable
+First_name,lastname,country,RollNo = 'Abhishek','Singh','India',101
+
+#Printing each Variable with a label
+print("First name :",First_name)
+print("LastName :",lastname)
+print("Country :",country)
+print("Roll No : ",RollNo)
+
+
+print(type(First_name)),print(type(lastname)),print(type(country)),print(type(RollNo))
+print(type(First_name),type(lastname),type(country),type(RollNo))
