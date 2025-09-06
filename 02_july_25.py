@@ -5,3 +5,6 @@ b = 3
 
 print("Addition        ",end="=> ")
 print(a,"+",b , "  = " ,a + b)
+
+print("Subtraction     ",end ="=> ")
+print(a,"-",b , "  = " ,a - b)
