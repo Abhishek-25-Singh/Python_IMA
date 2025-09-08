@@ -85,3 +85,5 @@ print("Type of c :",type(c))
 #input() - Take user input 
 name = input("Enter Your name : ")
 print("Type of name is ",type(name))
+
+print("How Are you",name,"?")
