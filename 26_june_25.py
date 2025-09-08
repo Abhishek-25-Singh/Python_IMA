@@ -82,3 +82,6 @@ print("Type of c :",type(c))
 
 
 # BUILT - IN FUNCTION
+#input() - Take user input 
+name = input("Enter Your name : ")
+print("Type of name is ",type(name))
