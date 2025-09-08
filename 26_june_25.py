@@ -56,3 +56,10 @@ print(add.__doc__)
 #  Implicity Type COnversion
 #  Explicit TYpe COnversion
 
+# ✅ Example 1: int → float
+a = 5    # Integer
+b = 2.5  # Float
+c = a + b # int + float
+print(" c : ",c)
+print("Type of c :",type(c))
+# ➡️ Here, a (int) is automatically converted to float before addition.
