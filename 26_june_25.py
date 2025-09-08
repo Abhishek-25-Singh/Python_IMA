@@ -63,3 +63,11 @@ c = a + b # int + float
 print(" c : ",c)
 print("Type of c :",type(c))
 # ➡️ Here, a (int) is automatically converted to float before addition.
+
+# ✅ Example 2: int → complex
+a = 10         # int
+b = 3.5j       # Complex
+c = a + b
+print(" c : ",c)
+print("Type of c :",type(c))
+# ➡️ int is promoted to complex.
