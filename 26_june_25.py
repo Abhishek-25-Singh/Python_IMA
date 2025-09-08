@@ -96,3 +96,9 @@ print("Type of age changed Explicitly : ",type(int(age)))
 
 age = int(input("Enter your age : "))
 print("Type of age is :", type(age) )
+
+name = input("What's you'r name : ")
+length = len(name)
+print("the length od the name :" , length)
+print("Type of the length is : " ,type(length))
+print(id(length))
