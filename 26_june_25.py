@@ -87,3 +87,9 @@ name = input("Enter Your name : ")
 print("Type of name is ",type(name))
 
 print("How Are you",name,"?")
+
+#type() - Check type of data
+age = input("Enter your age : ")
+print("Type Before conversion : ", type(age))
+#Changed String into Integer Explicitly
+print("Type of age changed Explicitly : ",type(int(age)))
