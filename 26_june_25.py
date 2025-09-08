@@ -17,3 +17,16 @@ z = "hello" # z infers This as String
 
 # This is a single-line comment
 a = 20  # This is an inline comment
+
+# 🔹 2. Multi-line comments (using triple quotes)
+"""
+This is a multi-line comment
+spanning across
+multiple lines
+"""
+'''
+Another way to write
+multi-line comment
+'''
+# In JupyterLab (or Python in general), this is not a comment.
+# 👉 In Python, triple quotes (''' or """) create a multi-line string literal.
