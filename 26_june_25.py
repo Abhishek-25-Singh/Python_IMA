@@ -79,3 +79,6 @@ c = a + b
 print(" c : ",c)
 print("Type of c :",type(c))
 # ➡️ True becomes 1 and addition is done.
+
+
+# BUILT - IN FUNCTION
