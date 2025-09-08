@@ -49,3 +49,5 @@ def add(a, b):
     and returns their sum.
     """
     return a + b
+
+print(add.__doc__)
