@@ -42,3 +42,10 @@ multi-line comment
 Another way to write
 multi-line comment
 ''';
+
+def add(a, b):
+    """
+    This function takes two numbers
+    and returns their sum.
+    """
+    return a + b
