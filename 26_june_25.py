@@ -30,3 +30,15 @@ multi-line comment
 '''
 # In JupyterLab (or Python in general), this is not a comment.
 # 👉 In Python, triple quotes (''' or """) create a multi-line string literal.
+
+# 👉 If you want Jupyter not to show the output, you can: Assign the string to a variable:
+x = '''
+Another way to write
+multi-line comment
+'''
+
+# 👉 If you want Jupyter not to show the output, you can: Or add a semicolon at the end:
+'''
+Another way to write
+multi-line comment
+''';
