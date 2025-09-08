@@ -93,3 +93,6 @@ age = input("Enter your age : ")
 print("Type Before conversion : ", type(age))
 #Changed String into Integer Explicitly
 print("Type of age changed Explicitly : ",type(int(age)))
+
+age = int(input("Enter your age : "))
+print("Type of age is :", type(age) )
