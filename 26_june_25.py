@@ -108,3 +108,11 @@ print("highest Marks : ",max(Marks))
 print("Lowest MArks : ", min(Marks))
 print("Total MArks : ", sum(Marks))
 print("Total Marks upto 1 Decimal Point : ",round(sum(Marks,2)))
+
+#abs() function --> Absolute Value
+# The abs() function in Python is used to return the absolute value of a number.
+# 👉 Absolute value simply means the distance of a number from 0 on the number line, without considering the sign (always non-negative).
+num1 = -100
+print("Absolute Value of num1 : ",abs(num1))
+num2 = 10.4
+print("Absolute Value of num1 : ",abs(num2))
