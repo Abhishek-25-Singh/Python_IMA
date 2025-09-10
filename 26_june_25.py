@@ -102,3 +102,9 @@ length = len(name)
 print("the length od the name :" , length)
 print("Type of the length is : " ,type(length))
 print(id(length))
+
+Marks = [88,72,66,98,65.9,65.89]
+print("highest Marks : ",max(Marks))
+print("Lowest MArks : ", min(Marks))
+print("Total MArks : ", sum(Marks))
+print("Total Marks upto 1 Decimal Point : ",round(sum(Marks,2)))
