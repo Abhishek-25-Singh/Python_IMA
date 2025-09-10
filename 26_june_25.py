@@ -124,3 +124,6 @@ print("Round off upto 1 ", round(num2,1))
 print("Round off upto 1 ", round(num2,2))
 print("Round off upto 1 ", round(num2,3))
 print("Round off upto 1 ", round(num2,-3))
+
+num2 = 18.6757896
+print("Round off upto 1 ", round(num2,-3))
