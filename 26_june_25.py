@@ -134,3 +134,31 @@ print("Sort the Given List in the Ascending order : ",sorted(S1)) # ➡️ Ascen
 print("Sort the Given List in the Descending order : ",sorted(S1,reverse= 0))
 print("Sort the Given List in the Descending order : ",sorted(S1,reverse= True)) # ➡️ Descending Order
 print("Sort the Given List in the Descending order : ",sorted(S1,reverse= 1))
+
+#Q1 Create Two Variable and Print their Sum
+num1 = 10
+num2 = 20
+Sum = num1 + num2
+print("Sum of num1 And num2 : ", Sum)
+
+#INput From the User for the Sum
+num1 = int(input("Enter the num1 : "))
+num2 = int(input("Enter the num2 : "))
+Sum = num1 + num2 
+print("Addition of num1 and num2 : ",Sum)
+print("Type of Sum is : ", type(Sum))
+
+# Q2 Store name in a variable and print it's length
+name = "Abhishek"
+print("The length of the name : ",len(name))
+
+#Q3 TAke user inputfor phone number and display its data type
+Phone_number = int(input("Enter Your 10 Digit Phone Number : "))
+print("Data Type of Phone NUmber is : ",type(Phone_number))
+
+# Q4 Convert String number to integer and add 5
+str1 = "100"
+Convert = int(str1)
+Addition = Convert + 5
+print("Addition of str1 and 5 :",Addition)
+
