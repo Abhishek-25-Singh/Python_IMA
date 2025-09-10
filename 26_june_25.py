@@ -162,3 +162,6 @@ Convert = int(str1)
 Addition = Convert + 5
 print("Addition of str1 and 5 :",Addition)
 
+# DATA TYPE IN PYTHON
+
+
