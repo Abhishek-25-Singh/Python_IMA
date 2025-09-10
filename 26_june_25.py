@@ -127,3 +127,10 @@ print("Round off upto 1 ", round(num2,-3))
 
 num2 = 18.6757896
 print("Round off upto 1 ", round(num2,-3))
+
+# Sort the list 
+S1 = [11,23,45,67,87,64,56]
+print("Sort the Given List in the Ascending order : ",sorted(S1)) # ➡️ Ascending Order
+print("Sort the Given List in the Descending order : ",sorted(S1,reverse= 0))
+print("Sort the Given List in the Descending order : ",sorted(S1,reverse= True)) # ➡️ Descending Order
+print("Sort the Given List in the Descending order : ",sorted(S1,reverse= 1))
