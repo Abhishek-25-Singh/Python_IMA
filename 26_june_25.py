@@ -116,3 +116,11 @@ num1 = -100
 print("Absolute Value of num1 : ",abs(num1))
 num2 = 10.4
 print("Absolute Value of num1 : ",abs(num2))
+
+# round Function
+num2 = 18.6757896
+print("Round off upto 1 ", round(num2,0))
+print("Round off upto 1 ", round(num2,1))
+print("Round off upto 1 ", round(num2,2))
+print("Round off upto 1 ", round(num2,3))
+print("Round off upto 1 ", round(num2,-3))
