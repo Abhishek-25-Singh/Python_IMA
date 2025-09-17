@@ -18,3 +18,7 @@ print(a,"/",b , "  = " ,a / b)
 
 print("Floor Division  ",end="=> ")
 print(a,"//",b , " = " ,a // b)
+
+
+print("Modulus         ",end = "=> ")
+print(a,"%",b , "  = " ,a % b)
