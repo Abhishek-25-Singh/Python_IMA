@@ -11,3 +11,7 @@ print(a,"-",b , "  = " ,a - b)
 
 print(" Multiplication ",end="=> ")
 print(a,"*",b , "  = " ,a * b)
+
+
+print("Division        ",end = "=> ")
+print(a,"/",b , "  = " ,a / b)
