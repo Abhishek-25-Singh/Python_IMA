@@ -36,3 +36,4 @@ print("Division :",num1/num2 ,"\tType of",num1,"/",num2," = ",type(num1/num2))
 # 1. Division always gives float Even if both numbers are integers:
 # 2. Floor division removes decimals.
 # 3. Modulo (%) with negative numbers (Python always ensures remainder has same sign as divisor)
+# 4. Exponentiation (Power)
