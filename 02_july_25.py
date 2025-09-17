@@ -37,3 +37,14 @@ print("Division :",num1/num2 ,"\tType of",num1,"/",num2," = ",type(num1/num2))
 # 2. Floor division removes decimals.
 # 3. Modulo (%) with negative numbers (Python always ensures remainder has same sign as divisor)
 # 4. Exponentiation (Power)
+# 5. Operators also work with floats.
+a = 5.5
+b = 2.0
+
+print("Addition:", a + b)       # 7.5
+print("Subtraction:", a - b)    # 3.5
+print("Multiplication:", a * b) # 11.0
+print("Division:", a / b)       # 2.75
+print("Floor Division:", a // b) # 2.0 (gives float)
+print("Modulo:", a % b)         # 1.5
+print("Exponent:", a ** b)      # 30.25
