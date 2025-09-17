@@ -8,3 +8,6 @@ print(a,"+",b , "  = " ,a + b)
 
 print("Subtraction     ",end ="=> ")
 print(a,"-",b , "  = " ,a - b)
+
+print(" Multiplication ",end="=> ")
+print(a,"*",b , "  = " ,a * b)
