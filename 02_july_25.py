@@ -34,4 +34,4 @@ print("Division :",num1/num2 ,"\tType of",num1,"/",num2," = ",type(num1/num2))
 
 # ⚡ Important Points to Remember
 # 1. Division always gives float Even if both numbers are integers:
-
+# 2. Floor division removes decimals.
