@@ -15,3 +15,6 @@ print(a,"*",b , "  = " ,a * b)
 
 print("Division        ",end = "=> ")
 print(a,"/",b , "  = " ,a / b)
+
+print("Floor Division  ",end="=> ")
+print(a,"//",b , " = " ,a // b)
