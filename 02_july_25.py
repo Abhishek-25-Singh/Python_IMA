@@ -22,3 +22,7 @@ print(a,"//",b , " = " ,a // b)
 
 print("Modulus         ",end = "=> ")
 print(a,"%",b , "  = " ,a % b)
+
+
+print("Exponentiation  ",end ="=> ")
+print(a,"**",b , " = " ,a ** b)
