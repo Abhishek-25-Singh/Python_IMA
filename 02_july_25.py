@@ -31,3 +31,7 @@ print(a,"**",b , " = " ,a ** b)
 num1 = int(input("Please Enter First Integer"))
 num2 = int(input("Please Enter Second Integer"))
 print("Division :",num1/num2 ,"\tType of",num1,"/",num2," = ",type(num1/num2))
+
+# ⚡ Important Points to Remember
+# 1. Division always gives float Even if both numbers are integers:
+
