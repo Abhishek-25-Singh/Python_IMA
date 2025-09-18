@@ -82,3 +82,8 @@ print("apple == apple  = ", "apple" == "apple") # Every character matches
 print("apple < app     = ", "apple" < "app") # 'apple' is longer than app , So python consider "apple">"app"
 print("Apple < apple   = ", "Apple" < "apple") # Uppercase Vs Lowecase 'A' = 67 'a' = 97 Asiic value --> 65 < 97 = True
 print("Abc < abc       = ","Abc" < "abc")
+
+# 🔹 4. Unicode / ASCII Values
+print("ASCII Values of A = ", ord('A'))  # 65
+print("ASCII Values of a = ",ord('a'))  # 97
+print("ASCII Values of b = ",ord('b'))  # 98
