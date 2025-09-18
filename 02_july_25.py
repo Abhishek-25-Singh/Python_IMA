@@ -101,3 +101,5 @@ x = [1,2,3]
 y = [1,2,3]
 print("x == y : ",x == y)   # True (same contents)
 print("x is y : ",x is y)   # False (different memory locations)
+
+# 🔹 3. Logical Operators 
