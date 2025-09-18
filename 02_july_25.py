@@ -51,3 +51,5 @@ print("Exponent:", a ** b)      # 30.25
 # 6. Order of Operations (PEMDAS/BODMAS rule applies) Python follows Parentheses → Exponent → Multiplication/Division → Addition/Subtraction:
 
 # Logical Operator
+
+# ⚡ Important Things to Know About Comparison Operators
