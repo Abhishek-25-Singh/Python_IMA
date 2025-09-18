@@ -70,3 +70,7 @@ print(" 5 < x > 20 = ", 5 < x > 120 )
     # 1.Numbers
 print(" 5 <= 5   : ", 5 <= 5)
 print(" 3.0 == 3 : ", 3.0 == 3)
+
+# 2. String
+print ("apple < banana = ", "apple" < "banana")   # True
+print("Abc < abc       = ","Abc" < "abc")        # True ('A' has smaller ASCII code than 'a')
