@@ -49,3 +49,5 @@ print("Floor Division:", a // b) # 2.0 (gives float)
 print("Modulo:", a % b)         # 1.5
 print("Exponent:", a ** b)      # 30.25
 # 6. Order of Operations (PEMDAS/BODMAS rule applies) Python follows Parentheses → Exponent → Multiplication/Division → Addition/Subtraction:
+
+# Logical Operator
