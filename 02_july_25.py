@@ -103,3 +103,14 @@ print("x == y : ",x == y)   # True (same contents)
 print("x is y : ",x is y)   # False (different memory locations)
 
 # 🔹 3. Logical Operators 
+a = 10 
+b = 5
+c= 20
+# and (both conditions must be True)
+print("a > b and c > a : ",a > b and c > a) # 10 > 5 and 20 > 10 => Trur
+
+# or (at least one condition True)
+print("a < b or c > a  : ", a < b or c > a) # 10 < 5 or 20 > 10
+
+# not(flips The reuslt)
+print("not(a > b)      : ",not(a > b))
