@@ -57,3 +57,11 @@ print("Exponent:", a ** b)      # 30.25
 # 1. Return Type is Boolean (True or False)
 print("10 > 5 = ", 10 > 5)
 print("Type of (10 > 5 ) = ",type(10>5))
+
+# 2. They can be chained (Python feature 😎)
+x = 10
+
+print(" 5 < x      = ", 5 < x )
+print(" x < 15     = ", x < 15 )
+print(" 5 < x < 10 = ", 5 < x < 15 ) # True (same as 5 < x and x < 15)
+print(" 5 < x > 20 = ", 5 < x > 120 )
