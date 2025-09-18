@@ -53,3 +53,7 @@ print("Exponent:", a ** b)      # 30.25
 # Logical Operator
 
 # ⚡ Important Things to Know About Comparison Operators
+
+# 1. Return Type is Boolean (True or False)
+print("10 > 5 = ", 10 > 5)
+print("Type of (10 > 5 ) = ",type(10>5))
