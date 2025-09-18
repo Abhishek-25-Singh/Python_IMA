@@ -74,3 +74,11 @@ print(" 3.0 == 3 : ", 3.0 == 3)
 # 2. String
 print ("apple < banana = ", "apple" < "banana")   # True
 print("Abc < abc       = ","Abc" < "abc")        # True ('A' has smaller ASCII code than 'a')
+
+# String --> Lexicographically --> Dictionary Order dictionary order, based on ASCII/Unicode):
+print ("apple < banana = ", "apple" < "banana")
+print ("cat > bat      = ", "cat" > "bat")
+print("apple == apple  = ", "apple" == "apple") # Every character matches
+print("apple < app     = ", "apple" < "app") # 'apple' is longer than app , So python consider "apple">"app"
+print("Apple < apple   = ", "Apple" < "apple") # Uppercase Vs Lowecase 'A' = 67 'a' = 97 Asiic value --> 65 < 97 = True
+print("Abc < abc       = ","Abc" < "abc")
