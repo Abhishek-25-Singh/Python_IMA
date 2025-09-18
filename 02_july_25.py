@@ -65,3 +65,8 @@ print(" 5 < x      = ", 5 < x )
 print(" x < 15     = ", x < 15 )
 print(" 5 < x < 10 = ", 5 < x < 15 ) # True (same as 5 < x and x < 15)
 print(" 5 < x > 20 = ", 5 < x > 120 )
+
+# 3. Work with different data types
+    # 1.Numbers
+print(" 5 <= 5   : ", 5 <= 5)
+print(" 3.0 == 3 : ", 3.0 == 3)
