@@ -95,3 +95,9 @@ print("[1,2] < [1,2,3]    : ",[1,2] < [1,2,3])
 print("[1,2,3,4,5] < [1,2,3,3,99] : ",[1,2,3,4,5] < [1,2,3,3,99])
 
 # 4. Difference between = and ==
+
+# 5. Objects comparison → is vs ==
+x = [1,2,3]
+y = [1,2,3]
+print("x == y : ",x == y)   # True (same contents)
+print("x is y : ",x is y)   # False (different memory locations)
