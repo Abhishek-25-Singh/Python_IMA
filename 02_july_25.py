@@ -87,3 +87,9 @@ print("Abc < abc       = ","Abc" < "abc")
 print("ASCII Values of A = ", ord('A'))  # 65
 print("ASCII Values of a = ",ord('a'))  # 97
 print("ASCII Values of b = ",ord('b'))  # 98
+
+# 3. Lists and tuples (compared element by element):
+print("[1,2,3] == [1,2,3] : ",[1,2,3] == [1,2,3])
+print("[1,2] == [1,2,3]   : ",[1,2] == [1,2,3])
+print("[1,2] < [1,2,3]    : ",[1,2] < [1,2,3])
+print("[1,2,3,4,5] < [1,2,3,3,99] : ",[1,2,3,4,5] < [1,2,3,3,99])
