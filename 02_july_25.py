@@ -114,3 +114,9 @@ print("a < b or c > a  : ", a < b or c > a) # 10 < 5 or 20 > 10
 
 # not(flips The reuslt)
 print("not(a > b)      : ",not(a > b))
+
+# ⚡ Important Points About Logical Operators
+#  1. Boolean Return Type
+#  2. Short-Circuit Evaluation (and ,or)
+#  3. not is a unary operator (applies to only one condition/value).
+#  4. Works with non-boolean values (truthy/falsy)
