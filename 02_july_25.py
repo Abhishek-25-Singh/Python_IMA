@@ -149,3 +149,5 @@ print("Empty tuple () : ",bool(()))
 
 print([] or "Hello")   # Hello (empty list is False, so returns second value)
 print("Hi" and 100)    # 100 (both True, so returns last value)
+
+# 🔹 Membership Operators in Python
