@@ -138,3 +138,6 @@ def check():
     return True
 print("check() and True : ", check() and True ) # True and True => True 
 print("check() and True : ", check() and False) # True and False => False
+
+
+# 3. not is a unary operator (applies to only one condition/value).
