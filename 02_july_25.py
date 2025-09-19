@@ -151,3 +151,8 @@ print([] or "Hello")   # Hello (empty list is False, so returns second value)
 print("Hi" and 100)    # 100 (both True, so returns last value)
 
 # 🔹 Membership Operators in Python
+name = "Abhishek"
+print("'a' in name : ",'a' in name)
+print("'A' in name : ",'A' in name)
+print("'Ah' in name : ",'Ah' in name)
+print("'Ab' in name : ",'Ab' in name)
