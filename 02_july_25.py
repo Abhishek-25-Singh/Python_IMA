@@ -120,3 +120,7 @@ print("not(a > b)      : ",not(a > b))
 #  2. Short-Circuit Evaluation (and ,or)
 #  3. not is a unary operator (applies to only one condition/value).
 #  4. Works with non-boolean values (truthy/falsy)
+
+# 1. Boolean Return Type
+print("a < b or c > a  : ", a < b or c > a) # 10 < 5 or 20 > 10
+print("not(a > b)      : ",not(a > b))
