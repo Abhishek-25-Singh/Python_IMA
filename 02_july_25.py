@@ -132,3 +132,9 @@ def check():
 
 print("False and check() : ",False and check())  # Output: False  (second not checked)
 print("True or check()   : ",True or check())    # Output: True   (second not checked)
+
+def check():
+    print("Checked")
+    return True
+print("check() and True : ", check() and True ) # True and True => True 
+print("check() and True : ", check() and False) # True and False => False
