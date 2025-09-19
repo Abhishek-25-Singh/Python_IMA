@@ -156,3 +156,8 @@ print("'a' in name : ",'a' in name)
 print("'A' in name : ",'A' in name)
 print("'Ah' in name : ",'Ah' in name)
 print("'Ab' in name : ",'Ab' in name)
+
+
+fruits = ["apple","grapes","mango"]
+print("'banana' in fruits : ",'banana' in fruits)
+print("'apple' in fruits : ",'apple' in fruits)
