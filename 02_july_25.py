@@ -161,3 +161,7 @@ print("'Ab' in name : ",'Ab' in name)
 fruits = ["apple","grapes","mango"]
 print("'banana' in fruits : ",'banana' in fruits)
 print("'apple' in fruits : ",'apple' in fruits)
+
+# ⚡ Important Points About Membership Operators
+# 1. Case-sensitive (for strings)
+# 2. works with substrings.
