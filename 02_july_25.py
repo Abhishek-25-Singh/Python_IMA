@@ -141,3 +141,11 @@ print("check() and True : ", check() and False) # True and False => False
 
 
 # 3. not is a unary operator (applies to only one condition/value).
+
+# 4. Works with non-boolean values (truthy/falsy)
+# falsy values
+print("Empty list []  : ",bool([]))
+print("Empty tuple () : ",bool(()))
+
+print([] or "Hello")   # Hello (empty list is False, so returns second value)
+print("Hi" and 100)    # 100 (both True, so returns last value)
