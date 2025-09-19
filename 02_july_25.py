@@ -124,3 +124,11 @@ print("not(a > b)      : ",not(a > b))
 # 1. Boolean Return Type
 print("a < b or c > a  : ", a < b or c > a) # 10 < 5 or 20 > 10
 print("not(a > b)      : ",not(a > b))
+
+# 2. Short-Circuit Evaluation (and ,or)
+def check():
+    print("Checked")
+    return True
+
+print("False and check() : ",False and check())  # Output: False  (second not checked)
+print("True or check()   : ",True or check())    # Output: True   (second not checked)
