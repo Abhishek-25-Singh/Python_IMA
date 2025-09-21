@@ -183,3 +183,17 @@ print(" \"App\" in \"Apple\" : ", "A" in fruit)
 # 2. works with substrings . in checks whether the substring exists, not just a single character.
 print("shi" in "Abhishek")    # True
 print("xyz" in "Abhishek")    # False
+
+# 3. Works with lists, tuples, sets and dictionary
+# list
+number = [1,2,3,4,5]
+print("1 in number : ", 1 in number)
+print("2 in number : ", 2 in number)
+print("3 in number : ", 3 in number)
+print("30 in number : ", 30 not in number)
+print("4 not in number : ", 4 not in number)
+print("5 not in number : ", 5 not in number)
+
+# not in
+print("6 in number  : ", 6 in number)
+print("50 in number : ", 50 in number)
