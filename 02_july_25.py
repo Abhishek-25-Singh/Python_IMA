@@ -165,3 +165,8 @@ print("'apple' in fruits : ",'apple' in fruits)
 # ⚡ Important Points About Membership Operators
 # 1. Case-sensitive (for strings)
 # 2. works with substrings.
+# 3. Works with lists, tuples, sets and dictionary.
+#    a. With dictionaries in checks keys, not values.
+#    b. With sets Fast membership check because sets are optimized for lookup.
+# 4. Performance Note.
+#    a. Checking membership in sets and dicts is faster than in lists/tuples, because sets/dicts use hashing internally.
