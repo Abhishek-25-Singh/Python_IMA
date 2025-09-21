@@ -221,3 +221,12 @@ print("51 in number : ", 51 in number)
 print("51 not in number : ", 51 not in number)
 print("6 not in number  : ", 6 not in number)
 print("5 not in number  : ", 5 not in number)
+
+# dictionaries in checks keys, not values.
+student = {"name": "Abhishek", "age": 21}
+print("name" in student)         # True (key check)
+print("Abhishek" in student)     # False (not a key)
+print("Abhishek" in student.values())  # True (value check)
+print(student.values())
+
+print(student.values("name")) # TypeError: dict.values() takes no arguments (1 given)
