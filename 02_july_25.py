@@ -197,3 +197,15 @@ print("5 not in number : ", 5 not in number)
 # not in
 print("6 in number  : ", 6 in number)
 print("50 in number : ", 50 in number)
+
+
+# tuple
+number = (1,2,3,4,5)
+print("1 in number : ", 1 in number)
+print("2 in number : ", 2 in number)
+print("3 in number : ", 3 in number)
+print("34 in number : ", 34 in number)
+
+# not in
+print("10 not in number  : ", 10 not in number)
+print("5 not in number : ", 5 not in number)
