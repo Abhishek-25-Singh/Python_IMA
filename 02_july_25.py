@@ -209,3 +209,15 @@ print("34 in number : ", 34 in number)
 # not in
 print("10 not in number  : ", 10 not in number)
 print("5 not in number : ", 5 not in number)
+
+
+# set
+number = {1,2,3,4,5}
+print("1 in number  : ", 1 in number)
+print("2 in number  : ", 2 in number)
+print("51 in number : ", 51 in number)
+
+# not in
+print("51 not in number : ", 51 not in number)
+print("6 not in number  : ", 6 not in number)
+print("5 not in number  : ", 5 not in number)
