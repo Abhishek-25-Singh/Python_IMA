@@ -170,3 +170,12 @@ print("'apple' in fruits : ",'apple' in fruits)
 #    b. With sets Fast membership check because sets are optimized for lookup.
 # 4. Performance Note.
 #    a. Checking membership in sets and dicts is faster than in lists/tuples, because sets/dicts use hashing internally.
+
+
+# 1. Case-sensitive (for strings)
+fruit = "Apple"
+print(" \"a\" in \"Apple\"   : ", "a" in fruit)
+print(" \"A\" in \"Apple\"   : ", "A" in fruit)
+
+print(" \"app\" in \"Apple\" : ", "a" in fruit)
+print(" \"App\" in \"Apple\" : ", "A" in fruit)
