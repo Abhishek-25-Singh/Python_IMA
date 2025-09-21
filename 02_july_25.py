@@ -179,3 +179,7 @@ print(" \"A\" in \"Apple\"   : ", "A" in fruit)
 
 print(" \"app\" in \"Apple\" : ", "a" in fruit)
 print(" \"App\" in \"Apple\" : ", "A" in fruit)
+
+# 2. works with substrings . in checks whether the substring exists, not just a single character.
+print("shi" in "Abhishek")    # True
+print("xyz" in "Abhishek")    # False
