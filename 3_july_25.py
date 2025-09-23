@@ -53,3 +53,23 @@ elif score >= 60:
     print("Grade C")
 else:
     print("Grade D")
+
+
+# 4) Nested If (or Nested Elif)
+# 	• An if (or elif) inside another if.
+
+
+num = 15
+if num > 0:
+    if num % 2 == 0:
+        print("Positive Even Number")
+    else:
+        print("Positive Odd Number")
+
+
+# if statement
+marks = 41
+if marks > 40:
+    print("you have clear The Test ")
+else:
+    print("You havn't Clear The Test " ) 
