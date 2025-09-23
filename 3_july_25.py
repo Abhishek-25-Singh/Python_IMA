@@ -73,3 +73,12 @@ if marks > 40:
     print("you have clear The Test ")
 else:
     print("You havn't Clear The Test " ) 
+
+
+
+#Q1. If the Score is int the range of 30 to 80 then give in the range else "out of range"
+Score = float(input("Enter The Score :"))
+if Score >= 30 and Score<= 80:
+    print("In The Given range ")
+else:
+    print("Out of range")
