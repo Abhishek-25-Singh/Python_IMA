@@ -28,3 +28,28 @@ if marks >= 40:
     print("You passed.")
 else:
     print("You failed.")
+
+
+# 3) If-Elif-Else Statement (Elif Ladder)
+#    Useful when there are multiple conditions
+
+age = int(input("Enter Your age in Integer : "))
+if age == 0:
+    print("Not born Yet ")
+elif age > 0 and age <=19:
+    print(age," Teenager")
+elif age >= 20 and age <= 60:
+    print("adult")
+else:
+    print(age," Senior Citizen") 
+
+
+score = 85
+if score >= 90:
+    print("Grade A")
+elif score >= 75:
+    print("Grade B")
+elif score >= 60:
+    print("Grade C")
+else:
+    print("Grade D")
