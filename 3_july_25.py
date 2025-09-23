@@ -6,3 +6,8 @@
 age = 20
 if age >= 18:
     print("You are eligible to vote! " )
+
+
+age = int(input("Enter your age in Numbers : "))
+if age >= 18:
+          print(age,"Is ELigible to vote ")
