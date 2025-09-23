@@ -82,3 +82,15 @@ if Score >= 30 and Score<= 80:
     print("In The Given range ")
 else:
     print("Out of range")
+
+
+Score = int(input("Enter The Score : "))
+if Score >= 90:
+    print("Tier 1 ")
+elif Score <= 89 and Score >= 75:
+    print("Tier 2")
+elif Score <= 74 and Score >= 60:
+    print("Tier 3")
+else:
+    print("failed The Exam ")
+    
