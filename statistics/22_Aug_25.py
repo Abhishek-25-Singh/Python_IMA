@@ -6,3 +6,4 @@
 #🔑 Key Points About Skewness (before Python use)
 # 1. Meaning of Skewness
 # 2. Type of Data Required
+# 3. Sample Size
