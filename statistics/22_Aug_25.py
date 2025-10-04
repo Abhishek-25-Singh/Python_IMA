@@ -25,3 +25,20 @@ print("Skewness(scipy) :",stats.skew(data))
 
 print("Scipy skewness (bias=True):", stats.skew(data, bias=True))
 print("Scipy skewness (bias=False):", stats.skew(data, bias=False))
+
+# if mean= 50, var = 400 and coeff_skew = -0.4 
+mean = 50
+var = 400 
+coeff_skew = -0.4
+
+# Standard Deviation
+std_dev = math.sqrt(var)
+print("Standard Deviation:", std_dev)
+
+# Median (using skewness formula)
+median = mean - coeff_skew * std_dev / 3
+print("Median:", median)
+
+# Mode (using skewness formula)
+mode = mean - coeff_skew * std_dev
+print("Mode:", mode)
