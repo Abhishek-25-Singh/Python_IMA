@@ -42,3 +42,9 @@ print("Median:", median)
 # Mode (using skewness formula)
 mode = mean - coeff_skew * std_dev
 print("Mode:", mode)
+
+# Generate data for Normal, Positive skew, Negative skew
+np.random.seed(0)
+normal_data = np.random.normal(loc=0, scale=1, size=1000)
+pos_skew_data = np.random.exponential(scale=1, size=1000)  # Right skewed
+neg_skew_data = -np.random.exponential(scale=1, size=1000)  # Left skewed
