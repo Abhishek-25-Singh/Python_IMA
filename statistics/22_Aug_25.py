@@ -10,3 +10,8 @@
 # 4. Outliers Effect
 # 5.Graph vs. Formula
 # 6.Python Functions
+import pandas as pd
+import scipy.stats as stats
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
