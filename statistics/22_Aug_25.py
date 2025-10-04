@@ -8,3 +8,4 @@
 # 2. Type of Data Required
 # 3. Sample Size
 # 4. Outliers Effect
+# 5.Graph vs. Formula
