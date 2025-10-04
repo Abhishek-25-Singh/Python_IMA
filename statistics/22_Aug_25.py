@@ -4,3 +4,4 @@
 # When the data deviates from normality, skewness measures the degree and direction of asymmetry.
 
 #🔑 Key Points About Skewness (before Python use)
+# 1. Meaning of Skewness
