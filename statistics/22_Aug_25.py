@@ -15,3 +15,13 @@ import scipy.stats as stats
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+
+data = [10, 12, 12, 13, 12, 11, 15, 20, 25]
+
+# Using Pandas
+print("Skewness(pandas) :",pd.Series(data).skew())
+# Using Scipy
+print("Skewness(scipy) :",stats.skew(data))
+
+print("Scipy skewness (bias=True):", stats.skew(data, bias=True))
+print("Scipy skewness (bias=False):", stats.skew(data, bias=False))
