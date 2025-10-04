@@ -9,3 +9,4 @@
 # 3. Sample Size
 # 4. Outliers Effect
 # 5.Graph vs. Formula
+# 6.Python Functions
