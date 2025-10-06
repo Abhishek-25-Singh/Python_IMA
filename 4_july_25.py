@@ -10,3 +10,11 @@ range(2,6)
 
 for i in range(2,6):
     print(i)
+
+
+range(0, 10, 2)
+
+print(list(range(0,10,2)))
+
+for i in range(0,10,2):
+    print(i)
