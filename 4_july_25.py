@@ -18,3 +18,11 @@ print(list(range(0,10,2)))
 
 for i in range(0,10,2):
     print(i)
+
+numbers = range(5)
+it = iter(numbers)
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
