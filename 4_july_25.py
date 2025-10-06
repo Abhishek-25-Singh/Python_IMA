@@ -26,3 +26,8 @@ print(next(it))
 print(next(it))
 print(next(it))
 print(next(it))
+
+numbers = range(5)
+it = iter(numbers)
+print("Iterator : ",(hasattr (numbers,"__next__")))
+print("Iterator : ",(hasattr (it, "__next__")))
