@@ -80,3 +80,7 @@ count = 0
 while count<10:
     count+=1
     print(num," * ",count," = ", num*count)
+
+# There are two types of loop Commands
+# 1.break
+# 2.Continue
