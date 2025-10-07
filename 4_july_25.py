@@ -66,3 +66,10 @@ print("count of odd in num list  : " , count_odd)
 number = list(range(1,11))
 for i in number:
     print("5 ","* ", i , " = ",5 * i)
+
+# Post-increment
+num = int(input("Enter The Integer : "))
+count = 1
+while count<=10:
+    print(num," * ",count," = ", num*count)
+    count+=1
