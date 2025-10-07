@@ -94,3 +94,10 @@ for i in range(1,5):
     if i == 3:
         break
     print(i)
+
+for i in range(1, 4):
+    if i == 2:
+        pass   # does nothing, just a placeholder
+    print(i)
+print("Iterator : " , hasattr(i,"__next__"))
+print("Iterator : " , hasattr(range,"__next__"))
