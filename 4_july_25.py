@@ -73,3 +73,10 @@ count = 1
 while count<=10:
     print(num," * ",count," = ", num*count)
     count+=1
+
+# pre-increment
+num = int(input("Enter The Integer : "))
+count = 0
+while count<10:
+    count+=1
+    print(num," * ",count," = ", num*count)
