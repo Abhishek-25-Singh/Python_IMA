@@ -84,3 +84,8 @@ while count<10:
 # There are two types of loop Commands
 # 1.break
 # 2.Continue
+
+for i in range(1,10):
+    if i == 7:
+        continue
+    print(i)
