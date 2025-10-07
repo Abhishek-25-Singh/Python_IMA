@@ -48,3 +48,15 @@ for i in name:
 
 for i in name:
     print("hello ", i, " !")
+
+num_list = [10,55,88,109,108,44,34,102]
+count_even = 0
+count_odd = 0
+
+for i in num_list:
+    if (i % 2 == 0):
+        count_even+=1
+    else:
+        count_odd +=1
+print("count of Even in num list : " , count_even)
+print("count of odd in num list  : " , count_odd)
