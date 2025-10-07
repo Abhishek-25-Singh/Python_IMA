@@ -41,3 +41,10 @@ print("numbers : " , number)
 
 for i in number:
     print(i + 1)
+
+name = ["Abhishek", "piyush","roni","shera", "chikki"]
+for i in name:
+    print(i)
+
+for i in name:
+    print("hello ", i, " !")
