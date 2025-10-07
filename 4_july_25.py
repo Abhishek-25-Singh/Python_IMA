@@ -60,3 +60,9 @@ for i in num_list:
         count_odd +=1
 print("count of Even in num list : " , count_even)
 print("count of odd in num list  : " , count_odd)
+
+
+# Q Print the table of 5 from 1 to 10
+number = list(range(1,11))
+for i in number:
+    print("5 ","* ", i , " = ",5 * i)
