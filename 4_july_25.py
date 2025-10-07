@@ -31,3 +31,13 @@ numbers = range(5)
 it = iter(numbers)
 print("Iterator : ",(hasattr (numbers,"__next__")))
 print("Iterator : ",(hasattr (it, "__next__")))
+
+number = list(range(11))
+print("numbers : " , number)
+
+# Syntax of range : (start , stop , step/skip)
+number = list(range(2 , 21, 2))
+print("numbers : " , number)
+
+for i in number:
+    print(i + 1)
