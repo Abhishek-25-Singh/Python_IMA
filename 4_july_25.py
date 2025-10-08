@@ -119,3 +119,13 @@ for char in text:
     if char in vowels:
         count+=1
 print("Number of Vowels in String : ",count)
+
+
+# factorila of number from user input
+num = int(input("enter the integer : "))
+fact=1
+i=1
+while(i<=num):
+    fact*=i
+    i+=1
+print("Factorial of the Given Number : ",fact)
