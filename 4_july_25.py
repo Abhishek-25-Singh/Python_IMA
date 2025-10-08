@@ -129,3 +129,5 @@ while(i<=num):
     fact*=i
     i+=1
 print("Factorial of the Given Number : ",fact)
+
+# Function
