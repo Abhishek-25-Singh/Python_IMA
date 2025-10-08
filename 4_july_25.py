@@ -101,3 +101,21 @@ for i in range(1, 4):
     print(i)
 print("Iterator : " , hasattr(i,"__next__"))
 print("Iterator : " , hasattr(range,"__next__"))
+
+Vowel = ['A','a','e','E','i',"I",'o','O','u','U']
+name = input("ENter any String : ")
+count=0
+for i in name:
+    if i in Vowel:
+        count+=1
+        print(i)
+print(count)
+
+
+text = input("ENter a String : ")
+vowels="AEIOUaeiou"
+count=0
+for char in text:
+    if char in vowels:
+        count+=1
+print("Number of Vowels in String : ",count)
